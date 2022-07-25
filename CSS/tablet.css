@@ -1,0 +1,35 @@
+/* estos estilos aplican para dispositivos mayores a 930 pixeles, el cual fue el breakpoint q indiqué en el HEAD del HTML */
+
+.main-table-container-slider {
+    display: flex;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.product-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 930px;
+    margin: 0 auto;
+}
+
+.plans-container-slider {
+    justify-content: center;
+}
+
+/* las siguientes dos serán para esconder flechas q no necesito en dispositivo más grande */
+/* .main-table-container-slider .left-arrow {
+    display: none;
+}
+
+.main-table-container-slider .right-arrow {
+    display: none;
+} */
+
+.left-arrow {
+    display: none;
+}
+
+.right-arrow {
+    display: none;
+}
